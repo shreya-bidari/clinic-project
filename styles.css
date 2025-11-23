@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Baloo+Bhai+2:wght@400..800&family=Dancing+Script:wght@400..700&family=Mea+Culpa&family=Monsieur+La+Doulaise&family=Sacramento&family=Satisfy&display=swap');
+.A {
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: bolder;
+    color: #a37622;
+}
+  
+body{
+    background-image:url("BackgroundIMG.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.dashboard {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+.summary {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.summary p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.occupied {
+    color: green;
+    font-weight: bold;
+}
+
+.vacant {
+    color: red;
+    font-weight: bold;
+}
+
+.colony table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.colony th, .colony td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.colony th {
+    background-color: #f8f9fa;
+    font-size: 16px;
+}
+
+.colony td {
+    font-size: 14px;
+}
+
+.colony .occupied {
+    background-color: #e6ffe6;
+    color: green;
+}
+
+.colony .vacant {
+    background-color: #ffe6e6;
+    color: red;
+}
+
+
+
+  
+  
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+     padding: 40px ; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    
+
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+
+  }
+  
+  input {
+    width: 50%;
+    padding: 10%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .search-bar {
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.search-bar input {
+    width: 200px;
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.setup-form, .data-table {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #4A90E2;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #4A90E2;
+    color: white;
+}
+
